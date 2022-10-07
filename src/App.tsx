@@ -1,14 +1,11 @@
-import { Stage } from '@inlet/react-pixi'
-import React from 'react'
-
+import React from "react";
+import {PixiCanvas} from "./components/pixiCanvas/index";
 
 export type AppProps = {
 
 }
 
 export const App: React.FC<AppProps> = () => {
-  return (
-      <Stage>
-      </Stage>
+  return (<PixiCanvas/>
   )
 }
